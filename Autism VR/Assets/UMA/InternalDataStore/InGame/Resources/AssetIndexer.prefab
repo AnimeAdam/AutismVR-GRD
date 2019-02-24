@@ -251,7 +251,7 @@ MonoBehaviour:
     IsAssetBundle: 0
   - _BaseTypeName: SlotDataAsset
     _Name: F_High poly head
-    _SerializedItem: {fileID: 0}
+    _SerializedItem: {fileID: 11400000, guid: 58e5a93186f923c4ca7910365d807714, type: 2}
     _Path: Assets/UMA/Content/UMA_Core/HumanFemale/Slots/Body/MidPoly/UMA_Human_Female_Head_Mid_Slot.asset
     _Guid: 72d68f914034a9c4f94c733168884070
     IsResource: 0
@@ -859,6 +859,258 @@ MonoBehaviour:
     _SerializedItem: {fileID: 11400000, guid: 5e5947622f0b5624ab399bd212ed44bb, type: 2}
     _Path: Assets/UMA/Content/UMA_Secrets/SecretClothing/Tracksuit/Components/Trainers/Male/TrainersM_Slot.asset
     _Guid: 5e5947622f0b5624ab399bd212ed44bb
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_dress_01_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 4f32e172f9f70a844a9c7dd88efc41e8, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_dress_01_LOD1/o3n_female_dress_01_LOD1_Slot.asset
+    _Guid: 4f32e172f9f70a844a9c7dd88efc41e8
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_shirt_03_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 470bc6f10dba7e843bf7bb44feb52e30, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_03_LOD1/o3n_female_shirt_03_LOD1_Slot.asset
+    _Guid: 470bc6f10dba7e843bf7bb44feb52e30
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_hoodie_01_LOD0
+    _SerializedItem: {fileID: 11400000, guid: 4cec6e8e305a83240923de4da1bde920, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_hoodie_01_LOD0/o3n_male_hoodie_01_LOD0_Slot.asset
+    _Guid: 4cec6e8e305a83240923de4da1bde920
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_hair_02_ponytail_1_LOD0
+    _SerializedItem: {fileID: 11400000, guid: b35d62e23b10ad34aa099d4859d2dcc5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_hair_02_ponytail_LOD0/o3n_female_hair_02_ponytail_1_LOD0_Slot.asset
+    _Guid: b35d62e23b10ad34aa099d4859d2dcc5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_hair_02_ponytail_LOD0
+    _SerializedItem: {fileID: 11400000, guid: 095c2e9b1fb90fe4a98e5bd074e563f9, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_hair_02_ponytail_LOD0/o3n_female_hair_02_ponytail_LOD0_Slot.asset
+    _Guid: 095c2e9b1fb90fe4a98e5bd074e563f9
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_longhair_01_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 901fb93982ae0b145bfad63e3ff58e9b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_longhair_01_LOD1/o3n_female_longhair_01_LOD1_Slot.asset
+    _Guid: 901fb93982ae0b145bfad63e3ff58e9b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_military_hair_01_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 96663564c7693da47b29d2f4df9a5e01, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_military_hair_01_LOD1_Slot.asset
+    _Guid: 96663564c7693da47b29d2f4df9a5e01
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_hair_02_LOD1
+    _SerializedItem: {fileID: 11400000, guid: e7cd1a25353d1a6499a56a247d005695, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_02_LOD1/o3n_male_hair_02_LOD1_Slot.asset
+    _Guid: e7cd1a25353d1a6499a56a247d005695
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_military_hair_01_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 9442e10e502fdf54a8ecbb398af3d03b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_military_hair_01_LOD1/o3n_male_military_hair_01_LOD1_Slot.asset
+    _Guid: 9442e10e502fdf54a8ecbb398af3d03b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_shoes_01_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 5185f53e8837ed04fb9f3c9c50f9b598, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_01_LOD1/o3n_female_shoes_01_LOD1_Slot.asset
+    _Guid: 5185f53e8837ed04fb9f3c9c50f9b598
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_shoes_02_LOD1
+    _SerializedItem: {fileID: 11400000, guid: c677330350a23cd41a00925ccadaa63a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_LOD1_Slot.asset
+    _Guid: c677330350a23cd41a00925ccadaa63a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_shoes_01_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 678ea13caf008f643b0b89dd365e46f1, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_LOD1_Slot.asset
+    _Guid: 678ea13caf008f643b0b89dd365e46f1
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3nPhysicsStandard
+    _SerializedItem: {fileID: 11400000, guid: 488cbfc023d49f44bab4366e91e50b88, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/Physics/o3nPhysicsStandardSlot.asset
+    _Guid: 488cbfc023d49f44bab4366e91e50b88
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3nForearmTwistSlot
+    _SerializedItem: {fileID: 11400000, guid: c5dc016f8a64d48468147dc1b2880161, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/TwistScripts/o3nForearmTwistSlot.asset
+    _Guid: c5dc016f8a64d48468147dc1b2880161
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_eyelash_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 873eb41c92947094b9203a09e18453c0, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_eyelash_LOD1/o3n_female_eyelash_LOD1_Slot.asset
+    _Guid: 873eb41c92947094b9203a09e18453c0
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_eyes_LOD1
+    _SerializedItem: {fileID: 11400000, guid: bb5a8e95cb63f3847912560cf0ea68ab, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_eyes_LOD1/o3n_female_eyes_LOD1_Slot.asset
+    _Guid: bb5a8e95cb63f3847912560cf0ea68ab
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_feet_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 9d47263fff27e5d47860b8905907df96, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_feet_LOD1/o3n_female_feet_LOD1_Slot.asset
+    _Guid: 9d47263fff27e5d47860b8905907df96
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_feet_toeless_LOD1
+    _SerializedItem: {fileID: 11400000, guid: ea615d56c971e0640b89ad3cad5aeac2, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_feet_toeless_LOD1/o3n_female_feet_toeless_LOD1_Slot.asset
+    _Guid: ea615d56c971e0640b89ad3cad5aeac2
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_hands_high
+    _SerializedItem: {fileID: 11400000, guid: 1bf28d2d1af7b1744aab154053b6ddf9, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_hands_high/o3n_female_hands_high_Slot.asset
+    _Guid: 1bf28d2d1af7b1744aab154053b6ddf9
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_hands_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 4778b6c43b05d6b48a43b7e105b38c23, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_hands_LOD1/o3n_female_hands_LOD1_Slot.asset
+    _Guid: 4778b6c43b05d6b48a43b7e105b38c23
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_head_high
+    _SerializedItem: {fileID: 11400000, guid: 4a2b691e93f57844d871e0aedb3a4037, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_head_high/o3n_female_head_high_Slot.asset
+    _Guid: 4a2b691e93f57844d871e0aedb3a4037
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_head_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 8ab6ca699c0c7bf4eaa7924ec626ac55, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_head_LOD1/o3n_female_head_LOD1_Slot.asset
+    _Guid: 8ab6ca699c0c7bf4eaa7924ec626ac55
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_innermouth_LOD1
+    _SerializedItem: {fileID: 11400000, guid: ad5dbafafbbbc1a42bdbe5ae4b53b342, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_innermouth_LOD1/o3n_female_innermouth_LOD1_Slot.asset
+    _Guid: ad5dbafafbbbc1a42bdbe5ae4b53b342
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_legs_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 8a5c1f6fbe5c67a42ad33a809806eb9c, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_legs_LOD1/o3n_female_legs_LOD1_Slot.asset
+    _Guid: 8a5c1f6fbe5c67a42ad33a809806eb9c
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_female_torso_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 4aaabfb5acbff72469d1150ac5167547, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_torso_LOD1/o3n_female_torso_LOD1_Slot.asset
+    _Guid: 4aaabfb5acbff72469d1150ac5167547
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_eyelash_LOD1
+    _SerializedItem: {fileID: 11400000, guid: bbce3ba036f12974994dd39158a0e6be, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_eyelash_LOD1/o3n_male_eyelash_LOD1_Slot.asset
+    _Guid: bbce3ba036f12974994dd39158a0e6be
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_eyes_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 5d96a3b6240634247a8c06c15b1f4277, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_eyes_LOD1/o3n_male_eyes_LOD1_Slot.asset
+    _Guid: 5d96a3b6240634247a8c06c15b1f4277
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_feet_LOD1
+    _SerializedItem: {fileID: 11400000, guid: f6f622988861f8942bfd9dcc4841cf0e, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_feet_LOD1/o3n_male_feet_LOD1_Slot.asset
+    _Guid: f6f622988861f8942bfd9dcc4841cf0e
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_feet_toeless_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 40d4a46b690b32a4d95986350f88ce11, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_feet_toeless_LOD1/o3n_male_feet_toeless_LOD1_Slot.asset
+    _Guid: 40d4a46b690b32a4d95986350f88ce11
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_hands_high
+    _SerializedItem: {fileID: 11400000, guid: 64b5402f010b75e4893c455a203d287a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_hands_high/o3n_male_hands_high_Slot.asset
+    _Guid: 64b5402f010b75e4893c455a203d287a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_hands_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 2cf3c41a1c3f0104aa0e58ab7cacc0f5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_hands_LOD1/o3n_male_hands_LOD1_Slot.asset
+    _Guid: 2cf3c41a1c3f0104aa0e58ab7cacc0f5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_head_high
+    _SerializedItem: {fileID: 11400000, guid: f55eb6edb8f291b4f888407bf00d1042, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_head_high/o3n_male_head_high_Slot.asset
+    _Guid: f55eb6edb8f291b4f888407bf00d1042
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_head_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 1b3508e92838c13479ac2df12280f170, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_head_LOD1/o3n_male_head_LOD1_Slot.asset
+    _Guid: 1b3508e92838c13479ac2df12280f170
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_innermouth_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 39e0f589d58a70f47afb74246d9c7e6a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_innermouth_LOD1/o3n_male_innermouth_LOD1_Slot.asset
+    _Guid: 39e0f589d58a70f47afb74246d9c7e6a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_legs_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 6649d512334966e459b6f89653881a9f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_legs_LOD1/o3n_male_legs_LOD1_Slot.asset
+    _Guid: 6649d512334966e459b6f89653881a9f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: SlotDataAsset
+    _Name: o3n_male_torso_LOD1
+    _SerializedItem: {fileID: 11400000, guid: 333ad354a9025b241b48dacb7ff71bc9, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_torso_LOD1/o3n_male_torso_LOD1_Slot.asset
+    _Guid: 333ad354a9025b241b48dacb7ff71bc9
     IsResource: 0
     IsAssetBundle: 0
   - _BaseTypeName: OverlayDataAsset
@@ -1712,6 +1964,531 @@ MonoBehaviour:
     _Guid: af6fdcf89513d1d448a785de1b7eeb8d
     IsResource: 0
     IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_dress_01_alpha_mask_overlay
+    _SerializedItem: {fileID: 11400000, guid: e235b2985d0d6f240af90ede319e4c5a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_dress_01_LOD1/o3n_female_dress_01_alpha_mask_overlay.asset
+    _Guid: e235b2985d0d6f240af90ede319e4c5a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_dress_01_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 1c3d8514e4467b04799cd122d918afcc, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_dress_01_LOD1/o3n_female_dress_01_Overlay.asset
+    _Guid: 1c3d8514e4467b04799cd122d918afcc
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_jeans_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: ecf400b10f287394789df76316b8766f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_jeans_01/o3n_female_jeans_01_overlay.asset
+    _Guid: ecf400b10f287394789df76316b8766f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shirt_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 66c35b556a893b549a4e15bf829f3489, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_01/o3n_female_shirt_01_overlay.asset
+    _Guid: 66c35b556a893b549a4e15bf829f3489
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shirt_02_overlay
+    _SerializedItem: {fileID: 11400000, guid: c53b97485fdf8b346b53607efeaadbdd, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_02/o3n_female_shirt_02_overlay.asset
+    _Guid: c53b97485fdf8b346b53607efeaadbdd
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shirt_03_alpha_mask_overlay
+    _SerializedItem: {fileID: 11400000, guid: 6ecfdbaf410ae0645ac7559c2948f3fd, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_03_LOD1/o3n_female_shirt_03_alpha_mask_overlay.asset
+    _Guid: 6ecfdbaf410ae0645ac7559c2948f3fd
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shirt_03_yellow_Overlay
+    _SerializedItem: {fileID: 11400000, guid: c98cd0df02c946d4b9d2376b91d9305a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_03_LOD1/o3n_female_shirt_03_yellow_Overlay.asset
+    _Guid: c98cd0df02c946d4b9d2376b91d9305a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_stockings_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: e78448959b6c73e4aac94d70599becb8, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_stockings_01/o3n_female_stockings_01_overlay.asset
+    _Guid: e78448959b6c73e4aac94d70599becb8
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_bra_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 213267643c4ae3f43a42b9794e2ec5db, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_01/o3n_female_bra_01_overlay.asset
+    _Guid: 213267643c4ae3f43a42b9794e2ec5db
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_undies_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 64ee9bc7ee25cef499cb760ef1d78e40, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_01/o3n_female_undies_01_overlay.asset
+    _Guid: 64ee9bc7ee25cef499cb760ef1d78e40
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_bra_02_overlay
+    _SerializedItem: {fileID: 11400000, guid: 75bc53762bac2f543b3ddcb277068ca3, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_02/o3n_female_bra_02_overlay.asset
+    _Guid: 75bc53762bac2f543b3ddcb277068ca3
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_undies_02_overlay
+    _SerializedItem: {fileID: 11400000, guid: e06cf1e154034ff49aa80b43b079b3c1, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_02/o3n_female_undies_02_overlay.asset
+    _Guid: e06cf1e154034ff49aa80b43b079b3c1
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_hoodie_01_blue_Overlay
+    _SerializedItem: {fileID: 11400000, guid: efcdc31b15736d74ca769616a8ab2563, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_hoodie_01_LOD0/o3n_male_hoodie_01_blue_Overlay.asset
+    _Guid: efcdc31b15736d74ca769616a8ab2563
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_hoodie_01_gray_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 664aa95882eff9b4191c7fc40f676dab, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_hoodie_01_LOD0/o3n_male_hoodie_01_gray_Overlay.asset
+    _Guid: 664aa95882eff9b4191c7fc40f676dab
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_hoodie_alpha_mask_overlay
+    _SerializedItem: {fileID: 11400000, guid: 75761017763a75a48ae82431b09c1691, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_hoodie_01_LOD0/o3n_male_hoodie_alpha_mask_overlay.asset
+    _Guid: 75761017763a75a48ae82431b09c1691
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_jeans_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: b40c9eb8aad98a04a9bb6012a722c622, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_jeans_01/o3n_male_jeans_01_overlay.asset
+    _Guid: b40c9eb8aad98a04a9bb6012a722c622
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_shirt_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: cf229d9b87ac3824b83d13758f2698d3, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_shirt_01/o3n_male_shirt_01_overlay.asset
+    _Guid: cf229d9b87ac3824b83d13758f2698d3
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_socks_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 0d9ce0f080e2c454fa3f6038cc02f80f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_socks_01/o3n_male_socks_01_overlay.asset
+    _Guid: 0d9ce0f080e2c454fa3f6038cc02f80f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_undies_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 9c6a9802ed38747448d1f8b34dfbe2ee, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_undies_01/o3n_male_undies_01_overlay.asset
+    _Guid: 9c6a9802ed38747448d1f8b34dfbe2ee
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_undies_02_overlay
+    _SerializedItem: {fileID: 11400000, guid: 7d390d088b0dec74f8d3bb00fafee446, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_undies_02/o3n_male_undies_02_overlay.asset
+    _Guid: 7d390d088b0dec74f8d3bb00fafee446
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_body_freckles_overlay
+    _SerializedItem: {fileID: 11400000, guid: 2ee9ec4d03ad9d740a87c37a40799e40, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_body_freckles/o3n_female_body_freckles_overlay.asset
+    _Guid: 2ee9ec4d03ad9d740a87c37a40799e40
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_lipstick_overlay
+    _SerializedItem: {fileID: 11400000, guid: a81b87de0db836d4ba9dd8c388d06fdc, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_lipstick/o3n_female_lipstick_overlay.asset
+    _Guid: a81b87de0db836d4ba9dd8c388d06fdc
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_skin_patches_body_overlay
+    _SerializedItem: {fileID: 11400000, guid: 1fb12e7a3b205c645a362adbad4ac061, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_skin_patches/o3n_female_skin_patches_body_overlay.asset
+    _Guid: 1fb12e7a3b205c645a362adbad4ac061
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_skin_patches_face_overlay
+    _SerializedItem: {fileID: 11400000, guid: 9edc4aaa888af9a4cbda2e8b01e1b55b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_skin_patches/o3n_female_skin_patches_face_overlay.asset
+    _Guid: 9edc4aaa888af9a4cbda2e8b01e1b55b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_tattoo_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: bef2e17547e514840a5402ca6d082500, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_tattoo_01/o3n_female_tattoo_01_overlay.asset
+    _Guid: bef2e17547e514840a5402ca6d082500
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_body_freckles_overlay
+    _SerializedItem: {fileID: 11400000, guid: bd6dc70568860b9408680e7ed59ee45b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_body_freckles/o3n_male_body_freckles_overlay.asset
+    _Guid: bd6dc70568860b9408680e7ed59ee45b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_body_hair_overlay
+    _SerializedItem: {fileID: 11400000, guid: 2d103b3759051b04ca05226cb7269f91, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_body_hair/o3n_male_body_hair_overlay.asset
+    _Guid: 2d103b3759051b04ca05226cb7269f91
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_skin_patches_body_overlay
+    _SerializedItem: {fileID: 11400000, guid: b2cf567ed631b4445a1be95f9b3a539e, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_skin_patches/o3n_male_skin_patches_body_overlay.asset
+    _Guid: b2cf567ed631b4445a1be95f9b3a539e
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_skin_patches_face_overlay
+    _SerializedItem: {fileID: 11400000, guid: 9c58bde97c8053d4dbedee0454da7e9a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_skin_patches/o3n_male_skin_patches_face_overlay.asset
+    _Guid: 9c58bde97c8053d4dbedee0454da7e9a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_tattoo_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 0d5145a29c8c00349b2a6da5b4420994, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_tattoo_01/o3n_male_tattoo_01_overlay.asset
+    _Guid: 0d5145a29c8c00349b2a6da5b4420994
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eye_adjust_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 0bc60937f2c6ed744a1730b2808bf5d3, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_01/o3n_eye_adjust_01_overlay.asset
+    _Guid: 0bc60937f2c6ed744a1730b2808bf5d3
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eye_adjust_overlay
+    _SerializedItem: {fileID: 11400000, guid: ac9deb28a6b17e748963ab91586b006f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_02/o3n_eye_adjust_overlay.asset
+    _Guid: ac9deb28a6b17e748963ab91586b006f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eye_adjust_03_overlay
+    _SerializedItem: {fileID: 11400000, guid: 8c40abf90e2c5cf4e9d3145d66256d91, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_03/o3n_eye_adjust_03_overlay.asset
+    _Guid: 8c40abf90e2c5cf4e9d3145d66256d91
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eye_adjust_04_overlay
+    _SerializedItem: {fileID: 11400000, guid: 7e0592dd80e51d242b26b4b7be7e688b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_04/o3n_eye_adjust_04_overlay.asset
+    _Guid: 7e0592dd80e51d242b26b4b7be7e688b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eye_adjust_05_overlay
+    _SerializedItem: {fileID: 11400000, guid: 7328e477046166c4eb0167dfcb034bb1, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_05/o3n_eye_adjust_05_overlay.asset
+    _Guid: 7328e477046166c4eb0167dfcb034bb1
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_eyebrow_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 5a6f8b5c57c0ac947bba42bed5fd4766, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eyebrow/o3n_female_eyebrow_01/o3n_female_eyebrow_01_overlay.asset
+    _Guid: 5a6f8b5c57c0ac947bba42bed5fd4766
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_eyebrow_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: ca9d1e77a91ebcb4b99b09598708e0ef, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eyebrow/o3n_male_eyebrow_01/o3n_male_eyebrow_01_overlay.asset
+    _Guid: ca9d1e77a91ebcb4b99b09598708e0ef
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_eyebrow_02_overlay
+    _SerializedItem: {fileID: 11400000, guid: 17c3ec0c26833a14dbf427087afb88e8, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eyebrow/o3n_male_eyebrow_02/o3n_male_eyebrow_02_overlay.asset
+    _Guid: 17c3ec0c26833a14dbf427087afb88e8
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_beard_01_overlay
+    _SerializedItem: {fileID: 11400000, guid: 9e97bf987b2d5df44b9acfdc3dc8b71c, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/FacialHair/o3n_male_beard_01/o3n_male_beard_01_overlay.asset
+    _Guid: 9e97bf987b2d5df44b9acfdc3dc8b71c
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_beard_02_overlay
+    _SerializedItem: {fileID: 11400000, guid: 8bf5fd914bc82a74796e428452c597f5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/FacialHair/o3n_male_beard_02/o3n_male_beard_02_overlay.asset
+    _Guid: 8bf5fd914bc82a74796e428452c597f5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_beard_03_overlay
+    _SerializedItem: {fileID: 11400000, guid: 330e6ebbdabe0be47b07996933fd2bcd, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/FacialHair/o3n_male_beard_03/o3n_male_beard_03_overlay.asset
+    _Guid: 330e6ebbdabe0be47b07996933fd2bcd
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_hair_02_ponytail_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 4dc3c02a41791f44ebbb5ac2a175b770, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_hair_02_ponytail_LOD0/o3n_female_hair_02_ponytail_Overlay.asset
+    _Guid: 4dc3c02a41791f44ebbb5ac2a175b770
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_hair_02_ponytail_scrunchie_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 6c4f812a605789e43b9d307f77aac16a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_hair_02_ponytail_LOD0/o3n_female_hair_02_ponytail_scrunchie_Overlay.asset
+    _Guid: 6c4f812a605789e43b9d307f77aac16a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_main_cap_overlay
+    _SerializedItem: {fileID: 11400000, guid: 16761e23917da8943bcca7a533f68b44, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_hair_caps/o3n_female_main_cap_overlay.asset
+    _Guid: 16761e23917da8943bcca7a533f68b44
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_longhair_01_Overlay
+    _SerializedItem: {fileID: 11400000, guid: ecccf59765e22c348b17beb2dfebb920, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_longhair_01_LOD1/o3n_female_longhair_01_Overlay.asset
+    _Guid: ecccf59765e22c348b17beb2dfebb920
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_buzz_cut_overlay
+    _SerializedItem: {fileID: 11400000, guid: 7e1201593a92bab48a52f575ef1ff14b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_buzz_cut_overlay.asset
+    _Guid: 7e1201593a92bab48a52f575ef1ff14b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_military_cap_overlay
+    _SerializedItem: {fileID: 11400000, guid: bc48de08324a10b498b31c5359227d0c, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_military_cap_overlay.asset
+    _Guid: bc48de08324a10b498b31c5359227d0c
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_military_hair_01_LOD1_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 735cdbb5228d2ab4585df6033b6cf5d0, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_military_hair_01_LOD1_Overlay.asset
+    _Guid: 735cdbb5228d2ab4585df6033b6cf5d0
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_hair_01
+    _SerializedItem: {fileID: 11400000, guid: b75e53ac9dc6a8445847d04ece8748ab, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_01/o3n_male_hair_01_overlay.asset
+    _Guid: b75e53ac9dc6a8445847d04ece8748ab
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_hair_02_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 6ff5ed8c68c1442448f2a9fc6f909b45, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_02_LOD1/o3n_male_hair_02_Overlay.asset
+    _Guid: 6ff5ed8c68c1442448f2a9fc6f909b45
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_hair_03_overlay
+    _SerializedItem: {fileID: 11400000, guid: c348ea7aad1fd7f4f94eba83543dcbad, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_03/o3n_male_hair_03_overlay.asset
+    _Guid: c348ea7aad1fd7f4f94eba83543dcbad
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_main_cap_overlay
+    _SerializedItem: {fileID: 11400000, guid: 09462f3fecfc2e044a7bc8f79b36125e, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_caps/o3n_male_main_cap_overlay.asset
+    _Guid: 09462f3fecfc2e044a7bc8f79b36125e
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_military_cap_overlay
+    _SerializedItem: {fileID: 11400000, guid: 2b6c198db4c73a248b06c231ef6eb550, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_caps/o3n_male_military_cap_overlay.asset
+    _Guid: 2b6c198db4c73a248b06c231ef6eb550
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_military_hair_01_LOD1_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 781dec897092a74448a3e12517095b0c, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_military_hair_01_LOD1/o3n_male_military_hair_01_LOD1_Overlay.asset
+    _Guid: 781dec897092a74448a3e12517095b0c
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shoes_02_alpha_mask_overlay
+    _SerializedItem: {fileID: 11400000, guid: df9bafa0584223f4fb58dae5e03f4a54, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_alpha_mask_overlay.asset
+    _Guid: df9bafa0584223f4fb58dae5e03f4a54
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shoes_02_beltring_Overlay
+    _SerializedItem: {fileID: 11400000, guid: d1fbb033eea2efb48a01402ee29bdb47, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_beltring_Overlay.asset
+    _Guid: d1fbb033eea2efb48a01402ee29bdb47
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shoes_02_bottom_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 9a8f929312395c24aad673cdba88fcbf, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_bottom_Overlay.asset
+    _Guid: 9a8f929312395c24aad673cdba88fcbf
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shoes_02_inner_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 4e72bcbe470dc5549af4409fd4bf76f4, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_inner_Overlay.asset
+    _Guid: 4e72bcbe470dc5549af4409fd4bf76f4
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_shoes_02_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 6bdab52b30163934f819d26f7099626d, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_Overlay.asset
+    _Guid: 6bdab52b30163934f819d26f7099626d
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_shoes_01_black_Overlay
+    _SerializedItem: {fileID: 11400000, guid: f6083ec78fd707a468428c8726269894, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_black_Overlay.asset
+    _Guid: f6083ec78fd707a468428c8726269894
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_shoes_01_turquoise_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 631d72d874229054c8181941fd0152f9, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_turquoise_Overlay.asset
+    _Guid: 631d72d874229054c8181941fd0152f9
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_shoes_01_white_Overlay
+    _SerializedItem: {fileID: 11400000, guid: 354ee4d5616d16e478d08c123c4d7ab6, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_white_Overlay.asset
+    _Guid: 354ee4d5616d16e478d08c123c4d7ab6
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_body_afro_skin_Overlay
+    _SerializedItem: {fileID: 11400000, guid: d1e931f4ab0626b4a8566099596e0fe1, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/afro_skin/female/o3n_female_body_afro_skin_Overlay.asset
+    _Guid: d1e931f4ab0626b4a8566099596e0fe1
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_face_afro_skin_Overlay
+    _SerializedItem: {fileID: 11400000, guid: d3539b9be04762e45a16dbfccfee78a7, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/afro_skin/female/o3n_female_face_afro_skin_Overlay.asset
+    _Guid: d3539b9be04762e45a16dbfccfee78a7
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_body_afro_skin_Overlay
+    _SerializedItem: {fileID: 11400000, guid: f93ee8c2e60c3894a93b51c379d31209, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/afro_skin/male/o3n_male_body_afro_skin_Overlay.asset
+    _Guid: f93ee8c2e60c3894a93b51c379d31209
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_face_afro_skin_Overlay
+    _SerializedItem: {fileID: 11400000, guid: eff3b81a69828294db08538cc77f6607, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/afro_skin/male/o3n_male_face_afro_skin_Overlay.asset
+    _Guid: eff3b81a69828294db08538cc77f6607
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3nDefaultEyeAdjust
+    _SerializedItem: {fileID: 11400000, guid: 8c4bf5f5544ffcd42bf69f55b946d9aa, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/Overlays/o3nDefaultEyeAdjust.asset
+    _Guid: 8c4bf5f5544ffcd42bf69f55b946d9aa
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eyelash_overlay
+    _SerializedItem: {fileID: 11400000, guid: c557d370e5b6ae24189b5da891c630db, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/Overlays/o3nEyelashOverlay.asset
+    _Guid: c557d370e5b6ae24189b5da891c630db
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_eye_overlay
+    _SerializedItem: {fileID: 11400000, guid: 6f487d830ca36f5458afe54fb54f8767, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/Overlays/o3nEyeOverlay.asset
+    _Guid: 6f487d830ca36f5458afe54fb54f8767
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_innermouth_overlay
+    _SerializedItem: {fileID: 11400000, guid: c51d8adffac6c9d4fb2c7a5c865250cb, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/Overlays/o3nInnermouthOverlay.asset
+    _Guid: c51d8adffac6c9d4fb2c7a5c865250cb
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_body_overlay
+    _SerializedItem: {fileID: 11400000, guid: 7e2bbc2a66c42e543acc54a6e047c8a7, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Overlays/Body/o3nFemaleBodyOverlay.asset
+    _Guid: 7e2bbc2a66c42e543acc54a6e047c8a7
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_female_head_overlay
+    _SerializedItem: {fileID: 11400000, guid: fb248bdb3dc78214ea6816943d446a30, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Overlays/Body/o3nFemaleHeadOverlay.asset
+    _Guid: fb248bdb3dc78214ea6816943d446a30
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3nMaleBodyMuscularOverlay
+    _SerializedItem: {fileID: 11400000, guid: 754955ad36a024c47b439a5c87614b34, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Overlays/Body/o3nMaleBodyMuscularOverlay.asset
+    _Guid: 754955ad36a024c47b439a5c87614b34
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_body_overlay
+    _SerializedItem: {fileID: 11400000, guid: 8ea2436f8e0e77646aa32d4556cf0caa, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Overlays/Body/o3nMaleBodyOverlay.asset
+    _Guid: 8ea2436f8e0e77646aa32d4556cf0caa
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: OverlayDataAsset
+    _Name: o3n_male_head_overlay
+    _SerializedItem: {fileID: 11400000, guid: b244b4fec21e3d44aaeeb6c1faee6b75, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Overlays/Body/o3nMaleHeadOverlay.asset
+    _Guid: b244b4fec21e3d44aaeeb6c1faee6b75
+    IsResource: 0
+    IsAssetBundle: 0
   - _BaseTypeName: RaceData
     _Name: HumanFemale
     _SerializedItem: {fileID: 11400000, guid: f8fea6f0ee17b3f42a4ae6cfb627bab3, type: 2}
@@ -1759,6 +2536,20 @@ MonoBehaviour:
     _SerializedItem: {fileID: 11400000, guid: 715d7d582b97b5b4d86b6ed75bb7268d, type: 2}
     _Path: Assets/UMA/Content/UMA_Core/HumanMale/RaceData/Human Male HighPoly.asset
     _Guid: 715d7d582b97b5b4d86b6ed75bb7268d
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: o3n Female
+    _SerializedItem: {fileID: 11400000, guid: ded45435a63630543becafa9ab3a042b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/RaceData/o3nFemaleRaceData.asset
+    _Guid: ded45435a63630543becafa9ab3a042b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: RaceData
+    _Name: o3n Male
+    _SerializedItem: {fileID: 11400000, guid: 8766edcd3ff471545972b53cf3547727, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/RaceData/o3nMaleRaceData.asset
+    _Guid: 8766edcd3ff471545972b53cf3547727
     IsResource: 0
     IsAssetBundle: 0
   - _BaseTypeName: UMATextRecipe
@@ -2434,6 +3225,34 @@ MonoBehaviour:
     _Guid: dc9b2ee309a14484aaf8f4c83614e499
     IsResource: 0
     IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: o3nPhysicsStandardRecipe
+    _SerializedItem: {fileID: 11400000, guid: 7c36e03b69d06f943994d25c15077a52, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/Physics/o3nPhysicsStandardRecipe.asset
+    _Guid: 7c36e03b69d06f943994d25c15077a52
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: o3nForearmTwistRecipe
+    _SerializedItem: {fileID: 11400000, guid: 05cad1e396dfa45499339f83259c73c5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/common/TwistScripts/o3nForearmTwistRecipe.asset
+    _Guid: 05cad1e396dfa45499339f83259c73c5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: o3nFemaleBaseRecipe
+    _SerializedItem: {fileID: 11400000, guid: 2dbca5724ffdb1840923a56666d2fa0f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Recipes/BaseRecipes/o3nFemaleBaseRecipe.asset
+    _Guid: 2dbca5724ffdb1840923a56666d2fa0f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMATextRecipe
+    _Name: o3nMaleBaseRecipe
+    _SerializedItem: {fileID: 11400000, guid: 357bc3a1a346d554286d0e594ede355e, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Recipes/BaseRecipes/o3nMaleBaseRecipe.asset
+    _Guid: 357bc3a1a346d554286d0e594ede355e
+    IsResource: 0
+    IsAssetBundle: 0
   - _BaseTypeName: UMAWardrobeRecipe
     _Name: FemaleTallShoes_Black
     _SerializedItem: {fileID: 11400000, guid: f7ff3729dba08b044a2535b32a1251ba, type: 2}
@@ -2956,6 +3775,461 @@ MonoBehaviour:
     _Guid: e00e48c0a5f569843a72a14907ca5992
     IsResource: 0
     IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: MaleHairSlick01_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 75611b25b76dfcd4facf747f35d19f26, type: 2}
+    _Path: Assets/UMA/Content/UMA_Secrets/SecretHair/MaleHairSlick01/MaleHairSlick01_Recipe.asset
+    _Guid: 75611b25b76dfcd4facf747f35d19f26
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_body_muscular_recipe
+    _SerializedItem: {fileID: 11400000, guid: e1b410b1545da8a48a742517558e2286, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Body/o3n_male_body_muscular/o3n_male_body_muscular_recipe.asset
+    _Guid: e1b410b1545da8a48a742517558e2286
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_dress_01_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 5ec2eb58825795d498813b42743a9271, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_dress_01_LOD1/o3n_female_dress_01_Recipe.asset
+    _Guid: 5ec2eb58825795d498813b42743a9271
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_jeans_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 035c11ee52567514a81f16c396ab8ef2, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_jeans_01/o3n_female_jeans_01_recipe.asset
+    _Guid: 035c11ee52567514a81f16c396ab8ef2
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shirt_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 930d2379332bcdc4e8be8c0f48461931, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_01/o3n_female_shirt_01_recipe.asset
+    _Guid: 930d2379332bcdc4e8be8c0f48461931
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shirt_02_recipe
+    _SerializedItem: {fileID: 11400000, guid: b29a855f77b735a4e82a4cc5bc19f491, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_02/o3n_female_shirt_02_recipe.asset
+    _Guid: b29a855f77b735a4e82a4cc5bc19f491
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shirt_03_yellow_Recipe
+    _SerializedItem: {fileID: 11400000, guid: c1867b01d154ec141bcb40fc2c8165f0, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_shirt_03_LOD1/o3n_female_shirt_03_yellow_Recipe.asset
+    _Guid: c1867b01d154ec141bcb40fc2c8165f0
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_stockings_01_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 33d595ec6b7244e4fa86b8abaf618472, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_stockings_01/o3n_female_stockings_01_Recipe.asset
+    _Guid: 33d595ec6b7244e4fa86b8abaf618472
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_bra_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 166d8b196e331e94a9e6d061c87acedb, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_01/o3n_female_bra_01_recipe.asset
+    _Guid: 166d8b196e331e94a9e6d061c87acedb
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_undies_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: cfb02b9dbbf8ff2448f49303e484669d, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_01/o3n_female_undies_01_recipe.asset
+    _Guid: cfb02b9dbbf8ff2448f49303e484669d
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_bra_02_recipe
+    _SerializedItem: {fileID: 11400000, guid: 2453855cb9fb8f042bc4a97577adef48, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_02/o3n_female_bra_02_recipe.asset
+    _Guid: 2453855cb9fb8f042bc4a97577adef48
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_undies_02_recipe
+    _SerializedItem: {fileID: 11400000, guid: de49daefa66d8034aba43de232c3cece, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_female_undies_02/o3n_female_undies_02_recipe.asset
+    _Guid: de49daefa66d8034aba43de232c3cece
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_hoodie_01_blue_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 40d5cd55f00d6a5489fee7eb03ed8686, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_hoodie_01_LOD0/o3n_male_hoodie_01_blue_Recipe.asset
+    _Guid: 40d5cd55f00d6a5489fee7eb03ed8686
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_hoodie_01_gray_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 1f82833d7d4b9ac4cbf4308b69c15059, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_hoodie_01_LOD0/o3n_male_hoodie_01_gray_Recipe.asset
+    _Guid: 1f82833d7d4b9ac4cbf4308b69c15059
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_jeans_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: b03fc8f5c30111546a253f1348f52f43, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_jeans_01/o3n_male_jeans_01_recipe.asset
+    _Guid: b03fc8f5c30111546a253f1348f52f43
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_shirt_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 82afad5dec83b1e428d0d55fe6ac5c66, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_shirt_01/o3n_male_shirt_01_recipe.asset
+    _Guid: 82afad5dec83b1e428d0d55fe6ac5c66
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_socks_01_high_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 417a642f02722cf47b5d375b6ae9629f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_socks_01/o3n_male_socks_01_high_Recipe.asset
+    _Guid: 417a642f02722cf47b5d375b6ae9629f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_socks_01_low_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 82e5f93797d4e94458994f5380d069bf, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_socks_01/o3n_male_socks_01_low_Recipe.asset
+    _Guid: 82e5f93797d4e94458994f5380d069bf
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_undies_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: a802be27934a1b84aa1e10da124d651c, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_undies_01/o3n_male_undies_01_recipe.asset
+    _Guid: a802be27934a1b84aa1e10da124d651c
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_undies_02_recipe
+    _SerializedItem: {fileID: 11400000, guid: 7db6b36f966099f4ba68a5b4ad1b732a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Clothing/o3n_male_undies_02/o3n_male_undies_02_recipe.asset
+    _Guid: 7db6b36f966099f4ba68a5b4ad1b732a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_body_freckles_recipe
+    _SerializedItem: {fileID: 11400000, guid: a4ffceae532b25c4c85b50692bdd1f8a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_body_freckles/o3n_female_body_freckles_recipe.asset
+    _Guid: a4ffceae532b25c4c85b50692bdd1f8a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_lipstick_recipe
+    _SerializedItem: {fileID: 11400000, guid: f4fa21bdc7bc9e84eb6d2e679dfce856, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_lipstick/o3n_female_lipstick_recipe.asset
+    _Guid: f4fa21bdc7bc9e84eb6d2e679dfce856
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_skin_pathces_recipe
+    _SerializedItem: {fileID: 11400000, guid: cff3b11b742285f4f837e22cc978edd9, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_skin_patches/o3n_female_skin_pathces_recipe.asset
+    _Guid: cff3b11b742285f4f837e22cc978edd9
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_tattoo_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 679f9f3d5dfad7b4ab9ee0fce9de83d3, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_female_tattoo_01/o3n_female_tattoo_01_recipe.asset
+    _Guid: 679f9f3d5dfad7b4ab9ee0fce9de83d3
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_body_freckles_recipe
+    _SerializedItem: {fileID: 11400000, guid: 58064d4b9c8a11b46b862d03b226aaa5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_body_freckles/o3n_male_body_freckles_recipe.asset
+    _Guid: 58064d4b9c8a11b46b862d03b226aaa5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_body_hair_recipe
+    _SerializedItem: {fileID: 11400000, guid: 0228d4a0ea76a894eb40d1d6cb91c9a6, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_body_hair/o3n_male_body_hair_recipe.asset
+    _Guid: 0228d4a0ea76a894eb40d1d6cb91c9a6
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_skin_pathces_recipe
+    _SerializedItem: {fileID: 11400000, guid: 8b934d47c4b6f9143a11e9173165f18b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_skin_patches/o3n_male_skin_pathces_recipe.asset
+    _Guid: 8b934d47c4b6f9143a11e9173165f18b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_tattoo_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 705e165635340a046b5897aeed33c43d, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Complexion/o3n_male_tattoo_01/o3n_male_tattoo_01_recipe.asset
+    _Guid: 705e165635340a046b5897aeed33c43d
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_eye_adjust_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: e2ef93401a0b8ee46a966f5cb2aab36e, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_01/o3n_female_eye_adjust_01_recipe.asset
+    _Guid: e2ef93401a0b8ee46a966f5cb2aab36e
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eye_adjust_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 17dafc314a1c81448b444a845aef777f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_01/o3n_male_eye_adjust_01_recipe.asset
+    _Guid: 17dafc314a1c81448b444a845aef777f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_eye_adjust_recipe
+    _SerializedItem: {fileID: 11400000, guid: 2c847b0c70a1e5640bc0668ae9f239e1, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_02/o3n_female_eye_adjust_recipe.asset
+    _Guid: 2c847b0c70a1e5640bc0668ae9f239e1
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eye_adjust_recipe
+    _SerializedItem: {fileID: 11400000, guid: 81d9ec125c7a6f444a9b6cfa119b8f74, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_02/o3n_male_eye_adjust_recipe.asset
+    _Guid: 81d9ec125c7a6f444a9b6cfa119b8f74
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_eye_adjust_03_recipe
+    _SerializedItem: {fileID: 11400000, guid: df7af19296709c742904594203e5b51f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_03/o3n_female_eye_adjust_03_recipe.asset
+    _Guid: df7af19296709c742904594203e5b51f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eye_adjust_03_recipe
+    _SerializedItem: {fileID: 11400000, guid: face636f63f5c6040a02cc917c26a087, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_03/o3n_male_eye_adjust_03_recipe.asset
+    _Guid: face636f63f5c6040a02cc917c26a087
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_eye_adjust_04_recipe
+    _SerializedItem: {fileID: 11400000, guid: 7d79760b16828064d8827063a04b9594, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_04/o3n_female_eye_adjust_04_recipe.asset
+    _Guid: 7d79760b16828064d8827063a04b9594
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eye_adjust_04_recipe
+    _SerializedItem: {fileID: 11400000, guid: 4dc530dd85bc2dd41b1a83c4ab8cad13, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_04/o3n_male_eye_adjust_04_recipe.asset
+    _Guid: 4dc530dd85bc2dd41b1a83c4ab8cad13
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_eye_adjust_05_recipe
+    _SerializedItem: {fileID: 11400000, guid: 70639044caed1e14ebb8a039b2e97d6f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_05/o3n_female_eye_adjust_05_recipe.asset
+    _Guid: 70639044caed1e14ebb8a039b2e97d6f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eye_adjust_05_recipe
+    _SerializedItem: {fileID: 11400000, guid: ef5da356e3b66a243b0130679d97e759, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eye/o3n_eye_adjust_05/o3n_male_eye_adjust_05_recipe.asset
+    _Guid: ef5da356e3b66a243b0130679d97e759
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_eyebrow_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 13aff7636a18cf145a6299f56b9b7f5b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eyebrow/o3n_female_eyebrow_01/o3n_female_eyebrow_01_recipe.asset
+    _Guid: 13aff7636a18cf145a6299f56b9b7f5b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eyebrow_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 29b7ff5ae4c28e54cbc8a58c6d253679, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eyebrow/o3n_male_eyebrow_01/o3n_male_eyebrow_01_recipe.asset
+    _Guid: 29b7ff5ae4c28e54cbc8a58c6d253679
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_eyebrow_02_recipe
+    _SerializedItem: {fileID: 11400000, guid: 06ee50b993de156439c94aaab7aa8410, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Eyebrow/o3n_male_eyebrow_02/o3n_male_eyebrow_02_recipe.asset
+    _Guid: 06ee50b993de156439c94aaab7aa8410
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_beard_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 6edbfc768f7ade643aac3ff79c3b53d5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/FacialHair/o3n_male_beard_01/o3n_male_beard_01_recipe.asset
+    _Guid: 6edbfc768f7ade643aac3ff79c3b53d5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_beard_02_recipe
+    _SerializedItem: {fileID: 11400000, guid: 7b42f4c49e347544cba649e3937f18f4, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/FacialHair/o3n_male_beard_02/o3n_male_beard_02_recipe.asset
+    _Guid: 7b42f4c49e347544cba649e3937f18f4
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_beard_03_recipe
+    _SerializedItem: {fileID: 11400000, guid: 7bfd487ed4b6f954e80280cdfe66d5d7, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/FacialHair/o3n_male_beard_03/o3n_male_beard_03_recipe.asset
+    _Guid: 7bfd487ed4b6f954e80280cdfe66d5d7
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_hair_02_ponytail_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 38345e2b350869342b6edeff9f8d980a, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_hair_02_ponytail_LOD0/o3n_female_hair_02_ponytail_Recipe.asset
+    _Guid: 38345e2b350869342b6edeff9f8d980a
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_longhair_01_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 28ee2ffbf6c74b84a8ee940e1423dbbc, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_longhair_01_LOD1/o3n_female_longhair_01_Recipe.asset
+    _Guid: 28ee2ffbf6c74b84a8ee940e1423dbbc
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_military_hair_01_LOD1_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 716a90bff1f1c0e47904b1f8dccfee23, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_military_hair_01_LOD1_Recipe.asset
+    _Guid: 716a90bff1f1c0e47904b1f8dccfee23
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_military_hair_01_LOD1_Recipe_v2
+    _SerializedItem: {fileID: 11400000, guid: 3360c4a912771b249ab223c28a044e18, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_military_hair_01_LOD1_Recipe_v2.asset
+    _Guid: 3360c4a912771b249ab223c28a044e18
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_military_hair_01_LOD1_Recipe_v3
+    _SerializedItem: {fileID: 11400000, guid: 11042c2e62b327e428326dc9b82d04c6, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_female_military_hair_01_LOD1/o3n_female_military_hair_01_LOD1_Recipe_v3.asset
+    _Guid: 11042c2e62b327e428326dc9b82d04c6
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_hair_01_recipe
+    _SerializedItem: {fileID: 11400000, guid: 09b13aa72ba692a4d9301342ed90ed42, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_01/o3n_male_hair_01_recipe.asset
+    _Guid: 09b13aa72ba692a4d9301342ed90ed42
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_hair_02_Recipe
+    _SerializedItem: {fileID: 11400000, guid: c39997fadcea5404cabda62bfd641a33, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_02_LOD1/o3n_male_hair_02_Recipe.asset
+    _Guid: c39997fadcea5404cabda62bfd641a33
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_hair_03_recipe
+    _SerializedItem: {fileID: 11400000, guid: fcb0a579f6f567742b71bb48b4254f54, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_hair_03/o3n_male_hair_03_recipe.asset
+    _Guid: fcb0a579f6f567742b71bb48b4254f54
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_military_hair_01_LOD1_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 6481bacc7ca31234eb3764498a400814, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_military_hair_01_LOD1/o3n_male_military_hair_01_LOD1_Recipe.asset
+    _Guid: 6481bacc7ca31234eb3764498a400814
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_military_hair_01_LOD1_Recipe_v2
+    _SerializedItem: {fileID: 11400000, guid: 311151bd88d707d47ab00327e15fc4a4, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Hair/o3n_male_military_hair_01_LOD1/o3n_male_military_hair_01_LOD1_Recipe_v2.asset
+    _Guid: 311151bd88d707d47ab00327e15fc4a4
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shoes_01_black_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 9152e8772394a5c4fb6a2c375ec5aa83, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_01_LOD1/o3n_female_shoes_01_black_Recipe.asset
+    _Guid: 9152e8772394a5c4fb6a2c375ec5aa83
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shoes_01_turquoise_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 4e781f89c47511548b810ffd703b4621, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_01_LOD1/o3n_female_shoes_01_turquoise_Recipe.asset
+    _Guid: 4e781f89c47511548b810ffd703b4621
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shoes_01_white_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 0c6c782d1a4d74d4da651886c583b4f8, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_01_LOD1/o3n_female_shoes_01_white_Recipe.asset
+    _Guid: 0c6c782d1a4d74d4da651886c583b4f8
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_shoes_02_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 3e1b24590bc23e447865dadf69b3f849, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_Recipe.asset
+    _Guid: 3e1b24590bc23e447865dadf69b3f849
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_shoes_01_black_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 186c4df3f7db9724f994aa11771061f8, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_black_Recipe.asset
+    _Guid: 186c4df3f7db9724f994aa11771061f8
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_shoes_01_turquoise_Recipe
+    _SerializedItem: {fileID: 11400000, guid: eff7387dea3bed445acf9d4949d32f26, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_turquoise_Recipe.asset
+    _Guid: eff7387dea3bed445acf9d4949d32f26
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_shoes_01_white_Recipe
+    _SerializedItem: {fileID: 11400000, guid: f7d54e45514148547b7727f4a23a3528, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_white_Recipe.asset
+    _Guid: f7d54e45514148547b7727f4a23a3528
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_hands_high_Recipe
+    _SerializedItem: {fileID: 11400000, guid: a8c03a9445e3e30479bb7d21e63255cc, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_hands_high/o3n_female_hands_high_Recipe.asset
+    _Guid: a8c03a9445e3e30479bb7d21e63255cc
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_female_head_high_Recipe
+    _SerializedItem: {fileID: 11400000, guid: e18678bf16addc642af6ae50fdb92e0f, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/Slots/o3n_female_head_high/o3n_female_head_high_Recipe.asset
+    _Guid: e18678bf16addc642af6ae50fdb92e0f
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_hands_high_Recipe
+    _SerializedItem: {fileID: 11400000, guid: c7f322b5fca260949bfa1c3c0bc7f4d2, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_hands_high/o3n_male_hands_high_Recipe.asset
+    _Guid: c7f322b5fca260949bfa1c3c0bc7f4d2
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: UMAWardrobeRecipe
+    _Name: o3n_male_head_high_Recipe
+    _SerializedItem: {fileID: 11400000, guid: 1f6248779a9d6f24aa0085e4c7ba7527, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/Slots/o3n_male_head_high/o3n_male_head_high_Recipe.asset
+    _Guid: 1f6248779a9d6f24aa0085e4c7ba7527
+    IsResource: 0
+    IsAssetBundle: 0
   - _BaseTypeName: RuntimeAnimatorController
     _Name: UMA_APose_Controller
     _SerializedItem: {fileID: 9100000, guid: 66af5264f1619114db5f72f979ce14bd, type: 2}
@@ -3090,6 +4364,13 @@ MonoBehaviour:
     _Guid: 8fffe9ab0da98d44e96ce94fcd284fd9
     IsResource: 0
     IsAssetBundle: 0
+  - _BaseTypeName: TextAsset
+    _Name: readme
+    _SerializedItem: {fileID: 4900000, guid: e04cc395ca29fdd4c95763974fd325a8, type: 3}
+    _Path: Assets/o3n/o3nBaseUMARaces/readme.txt
+    _Guid: e04cc395ca29fdd4c95763974fd325a8
+    IsResource: 0
+    IsAssetBundle: 0
   - _BaseTypeName: DynamicUMADnaAsset
     _Name: EyeSpacing
     _SerializedItem: {fileID: 11400000, guid: 1ea7a98b5dc54124e89f8ea3297ed602, type: 2}
@@ -3123,5 +4404,40 @@ MonoBehaviour:
     _SerializedItem: {fileID: 11400000, guid: 534a08ac04adc1849943bde519c8d8f5, type: 2}
     _Path: Assets/UMA/Examples/Blendshape Examples/DNA/BlendNamesDynamicDNA.asset
     _Guid: 534a08ac04adc1849943bde519c8d8f5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: o3nMaleDNAConverterBehaviourDNAAsset
+    _SerializedItem: {fileID: 11400000, guid: cb319e08806e0e94e824245de846414b, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nMaleRace/DNA/o3nMaleDNAConverterBehaviourDNAAsset.asset
+    _Guid: cb319e08806e0e94e824245de846414b
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: o3n_female_shoes_01_dnaDNAAsset
+    _SerializedItem: {fileID: 11400000, guid: 820c6ba0b905bfd408175afb6a2cd923, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_01_LOD1/o3n_female_shoes_01_dnaDNAAsset.asset
+    _Guid: 820c6ba0b905bfd408175afb6a2cd923
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: o3n_female_shoes_02_dnaDNAAsset
+    _SerializedItem: {fileID: 11400000, guid: 613332e025692974eb7d7107713b0ca5, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_female_shoes_02_LOD1/o3n_female_shoes_02_dnaDNAAsset.asset
+    _Guid: 613332e025692974eb7d7107713b0ca5
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: o3n_male_shoes_01_dnaDNAAsset
+    _SerializedItem: {fileID: 11400000, guid: 5a19e0c15ca82df44b712cbb70628f53, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Content/Shoes/o3n_male_shoes_01_LOD1/o3n_male_shoes_01_dnaDNAAsset.asset
+    _Guid: 5a19e0c15ca82df44b712cbb70628f53
+    IsResource: 0
+    IsAssetBundle: 0
+  - _BaseTypeName: DynamicUMADnaAsset
+    _Name: o3nFemaleDynamicDNAConverterBehaviourDNAAsset
+    _SerializedItem: {fileID: 11400000, guid: b35328c62ab178d4d988092c876a8092, type: 2}
+    _Path: Assets/o3n/o3nBaseUMARaces/Races/o3nFemaleRace/DNA/o3nFemaleDynamicDNAConverterBehaviourDNAAsset.asset
+    _Guid: b35328c62ab178d4d988092c876a8092
     IsResource: 0
     IsAssetBundle: 0

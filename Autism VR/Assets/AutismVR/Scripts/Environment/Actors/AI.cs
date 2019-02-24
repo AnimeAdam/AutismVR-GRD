@@ -5,16 +5,18 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class AI : MonoBehaviour {
 
+    //States
     public enum States { Idle, Walk, Run, Work, Sitting, G_TItem, Drinking, Eating, Telephone, Talking} //G_TItem = Give/Take Item
     [SerializeField]private States currentState = States.Idle;
     private States previousState = States.Idle;
     public  States currentState_gs{get { return currentState;}set { currentState = value;}}
 
-
+    //UMA Requirements
     public UnityEngine.AI.NavMeshAgent agent { get; private set; }             // the navmesh agent required for the path finding
     public ThirdPersonCharacter character { get; private set; } // the character we are controlling
-    public Vector3 target = Vector3.zero;                                    // target to aim for
 
+
+    public Vector3 target = Vector3.zero;                                    // target to aim for
     private float timer = 0f;
 
 

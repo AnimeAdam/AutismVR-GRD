@@ -253,6 +253,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	            m_Rigidbody.Sleep();
 	            m_Capsule.enabled = false;
 	            agent.enabled = false;
+	            m_Animator.SetBool("Sitting", _sit);
             }
 	        else
 	        {
@@ -260,7 +261,6 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	            m_Capsule.enabled = true;
 	            agent.enabled = true;
             }
-	        m_Animator.SetBool("Sitting", _sit);
         }
 	}
 }

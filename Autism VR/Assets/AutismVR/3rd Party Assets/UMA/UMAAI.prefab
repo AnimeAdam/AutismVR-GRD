@@ -163,7 +163,35 @@ MonoBehaviour:
   rebuildSkeleton: 0
   preloadWardrobeRecipes:
     loadDefaultRecipes: 1
-    recipes: []
+    recipes:
+    - _recipeName: MaleBeard3
+      _compatibleRaces:
+      - HumanMaleDCS
+      - HumanMale
+    - _recipeName: MaleBrow02
+      _compatibleRaces:
+      - HumanMale
+      - HumanMaleDCS
+    - _recipeName: MaleEye3
+      _compatibleRaces:
+      - HumanMale
+      - HumanMaleDCS
+    - _recipeName: MaleHair3
+      _compatibleRaces:
+      - HumanMale
+      - HumanMaleDCS
+    - _recipeName: MaleJeans 1
+      _compatibleRaces:
+      - HumanMaleDCS
+      - HumanMale
+    - _recipeName: MaleRobe Shoes
+      _compatibleRaces:
+      - HumanMale
+      - HumanMaleDCS
+    - _recipeName: MaleShirt3
+      _compatibleRaces:
+      - HumanMale
+      - HumanMaleDCS
   raceAnimationControllers:
     defaultAnimationController: {fileID: 9100000, guid: 25b3faeb68f04de45adc983ea7f2a396,
       type: 2}
@@ -254,4 +282,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3235ffd3ad196478353172cb0a9e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState: 0
   target: {x: 0, y: 0, z: 0}
