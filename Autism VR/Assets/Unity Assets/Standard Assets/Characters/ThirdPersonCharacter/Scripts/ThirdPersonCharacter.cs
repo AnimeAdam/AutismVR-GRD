@@ -262,5 +262,38 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	            agent.enabled = true;
             }
         }
-	}
+
+	    public void Walk(bool _walk)
+	    {
+
+	    }
+	    public void Running(bool _run)
+	    {
+
+	    }
+	    public void Work(bool _work)                 //For working at a desk
+	    {
+
+	    }
+	    public void G_TItem(bool gtitem)              //Giving or taking an item
+	    {
+
+	    }
+	    public void Eating(bool _eat)
+	    {
+
+	    }
+	    public void Drinking(bool _drink)
+	    {
+
+	    }
+	    public void Telephone(bool _tele)
+	    {
+
+	    }
+        public void Talking (bool _talk)
+	    {
+
+	    }
+    }
 }
