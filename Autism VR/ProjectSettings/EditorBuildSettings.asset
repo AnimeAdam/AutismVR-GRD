@@ -6,14 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VRSampleScenes/Scenes/Intro.unity
+    path: Assets/AutismVR/Scenes/ScenerioSelector.unity
+    guid: 32270cdf539e6d04b96f7fdc48445870
   - enabled: 1
-    path: Assets/VRSampleScenes/Scenes/MainMenu.unity
+    path: Assets/AutismVR/Scenes/RoomCity.unity
+    guid: 150b3c9d954aa3b4e83cc03c7f6fc8ad
   - enabled: 1
-    path: Assets/VRSampleScenes/Scenes/Maze.unity
+    path: Assets/AutismVR/Scenes/RoomOffice.unity
+    guid: 7b0a3647b75c81f408633719d722d7ee
   - enabled: 1
-    path: Assets/VRSampleScenes/Scenes/Flyer.unity
+    path: Assets/AutismVR/Scenes/RoomPlayground.unity
+    guid: 84f34bc6fa405af48ace055420588443
   - enabled: 1
-    path: Assets/VRSampleScenes/Scenes/Shooter360.unity
-  - enabled: 1
-    path: Assets/VRSampleScenes/Scenes/Shooter180.unity
+    path: Assets/AutismVR/Scenes/RoomRestaurant.unity
+    guid: 9ad109b4c70f7f643890d00689f59735
+  m_configObjects: {}
