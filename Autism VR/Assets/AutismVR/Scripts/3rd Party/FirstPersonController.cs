@@ -137,7 +137,6 @@ public class FirstPersonController : MonoBehaviour
 			m_Jump = true;
 		}
 
-	    //DebugInputs();
 	}
 
 
