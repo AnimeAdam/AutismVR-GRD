@@ -1,0 +1,27 @@
+Crossing the Road Scenerio
+- Characters wanders street up and down
+- Instrucion Objective list for looking both way then cross the road
+- Celebraion music and visual
+
+Scenerio Backbone
+- List of actions the player can do
+	//- Walk to the right spot
+	- Talk to right person (highlight and click on them)
+	- Select right talking option (pick opition from list by pointing or use up | down or to use mic)
+	- Picking up the right objects
+	//- Avoiding danger/fail states
+	- Track head for looking at things
+- Text 2 Speech is a good opition
+- Make listeners
+- Make list of objectives
+- Make Modular by can adding list of actions needed, and objectives required to complete
+- Make a scenerio
+
+
+- Script of AI for things for the AI to do
+- Finish Action Animation functions
+
+- NPC can get in chairs by instant animation change target to chair
+- React to you character
+- Track VR eyes to keep on contact for talking
+- Build the remaining areas

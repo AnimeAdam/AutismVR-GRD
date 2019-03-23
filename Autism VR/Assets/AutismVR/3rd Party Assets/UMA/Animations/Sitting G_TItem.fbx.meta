@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 214439b884519c54682dd591f873e7b3
+guid: 198d6bdfe8617724680b224b0cd1ea46
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -151,11 +151,11 @@ ModelImporter:
     100290: RightUpLegAdjust
     100292: RightUpperLid
     100294: RightUpperLidAdjust
-    100296: Spine
-    100298: Spine1
-    100300: Spine1Adjust
-    100302: SpineAdjust
-    100304: //RootNode
+    100296: //RootNode
+    100298: Spine
+    100300: Spine1
+    100302: Spine1Adjust
+    100304: SpineAdjust
     100306: Tongue01
     100308: Tongue02
     100310: UMA_Male_Rig
@@ -309,17 +309,17 @@ ModelImporter:
     400290: RightUpLegAdjust
     400292: RightUpperLid
     400294: RightUpperLidAdjust
-    400296: Spine
-    400298: Spine1
-    400300: Spine1Adjust
-    400302: SpineAdjust
-    400304: //RootNode
+    400296: //RootNode
+    400298: Spine
+    400300: Spine1
+    400302: Spine1Adjust
+    400304: SpineAdjust
     400306: Tongue01
     400308: Tongue02
     400310: UMA_Male_Rig
     400312: UpperLips
     400314: UpperLipsAdjust
-    7400000: Sitting Talking
+    7400000: Sitting G_TItem
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
@@ -357,17 +357,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Sitting Talking
+      name: Sitting G_TItem
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 300
+      lastFrame: 206
       wrapMode: 0
       orientationOffsetY: 0
-      level: -0.51
+      level: -0.67
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

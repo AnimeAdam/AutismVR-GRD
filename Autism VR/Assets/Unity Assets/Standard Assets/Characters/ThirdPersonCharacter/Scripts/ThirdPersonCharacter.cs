@@ -245,8 +245,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 		}
 
-	    public void Sitting(bool _sit)
-	    {
+	    public void Sitting(bool _sit)          //Vector3 _target for where the character will spawn to
+        {
 	        if (_sit)
 	        {
 	            m_Rigidbody.useGravity = false;
@@ -260,40 +260,56 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 	            m_Rigidbody.useGravity = true;
 	            m_Capsule.enabled = true;
 	            agent.enabled = true;
+	            m_Animator.SetBool("Sitting", _sit);
+                transform.position += new Vector3(-1.5f,0f,0f);
             }
         }
 
-	    public void Walk(bool _walk)
+	    public void Walk(bool _walk, Vector3 _target)       //Target system for a place to reach at walking speed
 	    {
+	        if (_walk)
+	        {
 
+	        }
+	        else
+	        {
+	            
+	        }
 	    }
-	    public void Running(bool _run)
-	    {
+	    public void Running(bool _run, Vector3 _target)       //Target system for a place to reach at running speed
+        {
+            if (_run)
+            {
 
-	    }
+            }
+            else
+            {
+
+            }
+        }
 	    public void Work(bool _work)                 //For working at a desk
 	    {
-
-	    }
-	    public void G_TItem(bool gtitem)              //Giving or taking an item
+	        m_Animator.SetBool("Working", _work);
+        }
+	    public void G_TItem(bool _gtitem)              //Giving or taking an item
 	    {
-
-	    }
+	        m_Animator.SetBool("G_TItem", _gtitem);
+        }
 	    public void Eating(bool _eat)
 	    {
-
-	    }
+	        m_Animator.SetBool("Eating", _eat);
+        }
 	    public void Drinking(bool _drink)
 	    {
-
-	    }
+	        m_Animator.SetBool("Drinking", _drink);
+        }
 	    public void Telephone(bool _tele)
 	    {
-
-	    }
+	        m_Animator.SetBool("Telephone", _tele);
+        }
         public void Talking (bool _talk)
 	    {
-
-	    }
+	        m_Animator.SetBool("Talking", _talk);
+        }
     }
 }
