@@ -6,10 +6,10 @@ using UnityEngine;
 public class Scenario : ScriptableObject
 {
     [Header("NPC Information")]
-    public GameObject[] NPCs = new GameObject[20];
-    public Sequence[] NPC_AI = new Sequence[20];
+    public List<GameObject> NPCs;
+    public List<Sequence> NPC_AI;
 
     [Header("Objectives")]
-    public Objective[] Objectives = new Objective[20];
+    public List<Objective> Objectives;
     
 }

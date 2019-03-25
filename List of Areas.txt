@@ -10,3 +10,8 @@ Number of environments
 - Crossing the Road --
 - Telephone coversations for scams
 - Bullying
+
+
+-0.17
+1.137
+-2.13

@@ -1,3 +1,5 @@
+Script list of targets for AI to walk to
+
 Crossing the Road Scenerio
 - Characters wanders street up and down
 - Instrucion Objective list for looking both way then cross the road

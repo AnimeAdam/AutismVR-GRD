@@ -176,10 +176,6 @@ MonoBehaviour:
       _compatibleRaces:
       - HumanMale
       - HumanMaleDCS
-    - _recipeName: MaleHair3
-      _compatibleRaces:
-      - HumanMale
-      - HumanMaleDCS
     - _recipeName: MaleJeans 1
       _compatibleRaces:
       - HumanMaleDCS
@@ -189,6 +185,10 @@ MonoBehaviour:
       - HumanMale
       - HumanMaleDCS
     - _recipeName: MaleShirt3
+      _compatibleRaces:
+      - HumanMale
+      - HumanMaleDCS
+    - _recipeName: MaleHair2
       _compatibleRaces:
       - HumanMale
       - HumanMaleDCS
@@ -284,3 +284,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   target: {x: 0, y: 0, z: 0}
+  goNow: 0

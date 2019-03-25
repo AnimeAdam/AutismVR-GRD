@@ -7,7 +7,7 @@ using UnityStandardAssets.Characters.ThirdPerson;
 public class AI : MonoBehaviour {
 
     //States //0x0 is a Hexadecimal lateral 0b00000000 is a btye lateral
-    [Flags] public enum States { Idle=0x0, Walk = 0x1, Run = 0x2, Work = 0x4, Sitting = 0x8, G_TItem=0x10, Drinking = 0x20, Eating = 0x40, Telephone = 0x80, Talking = 0x100} //G_TItem = Give/Take Item
+    [Flags] public enum States { Idle=0x0, Walk = 0x1, Run = 0x2, Work = 0x4, Sitting = 0x8, G_TItem=0x10, Drinking = 0x20, Eating = 0x40, Telephone = 0x80, Talking = 0x100 } //G_TItem = Give/Take Item  //Run_Test = 0x200
     [SerializeField]private States currentState = States.Idle;
     private States previousState = States.Idle;
     public  States currentState_gs{get { return currentState;}set { currentState = value;}}
@@ -19,6 +19,8 @@ public class AI : MonoBehaviour {
 
     public Vector3 target = Vector3.zero;                                    // target to Walk/Run to
     private float timer = 0f;
+
+    public bool goNow = false;
 
 
     private void Start()
@@ -36,19 +38,20 @@ public class AI : MonoBehaviour {
 
     private void Update()
     {
-        /*          //TEST CODE
-        if (target != Vector3.zero)
-            agent.SetDestination(target);
-
-        if (agent.remainingDistance > agent.stoppingDistance)
-            character.Move(agent.desiredVelocity);
-        else
+        if (goNow)
         {
-            character.Move(Vector3.zero, false, false);
-        }*/
-                  //TEST CODE
+            if (target != Vector3.zero)
+                agent.SetDestination(target);
 
-        ChangeState();
+            if (agent.remainingDistance > agent.stoppingDistance)
+                character.Move(agent.desiredVelocity);
+            else
+            {
+                character.Move(Vector3.zero, false, false);
+            }
+        }
+
+        //ChangeState();
     }
 
     public void ChangeState()

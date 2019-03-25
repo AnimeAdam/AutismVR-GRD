@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 768613c3cb6ace54a9dbf2720b0aa5c0, type: 3}
   m_Name: Objective
   m_EditorClassIdentifier: 
-  instructions: '- Cross the Road'
-  targetLocation: {x: 0, y: 0, z: 8.9}
+  instructions: Go to the centre of the Room
+  targetLocation: {x: 0, y: 0, z: 0}
+  lookingLocation: {x: 0, y: 0, z: 0}
   NPCTalkTo: {fileID: 0}
   ObjectToPickUp: {fileID: 0}
   isTaskCompleted: 0

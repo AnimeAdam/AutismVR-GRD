@@ -7,7 +7,10 @@ public class Sequence : ScriptableObject
 {
     public string NPCname = "NPC1";
     public Vector3 spawnPoint;
-    public Vector3 direction;
-    public Vector3[] targets = new Vector3[20];
+    public ScenarioManager.Facing facingDirection;
+    public List<Vector3> targets;
+    public bool loop;
+
+
     public AI.States State;
 }
