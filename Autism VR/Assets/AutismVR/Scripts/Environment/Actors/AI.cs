@@ -7,7 +7,8 @@ using UnityStandardAssets.Characters.ThirdPerson;
 public class AI : MonoBehaviour {
 
     //States //0x0 is a Hexadecimal lateral 0b00000000 is a btye lateral
-    [Flags] public enum States { Idle=0x0, Walk = 0x1, Run = 0x2, Work = 0x4, Sitting = 0x8, G_TItem=0x10, Drinking = 0x20, Eating = 0x40, Telephone = 0x80, Talking = 0x100 } //G_TItem = Give/Take Item  //Run_Test = 0x200
+    [Flags] public enum States { Idle=0x0, Walk = 0x1, Run = 0x2, Work = 0x4, Sitting = 0x8, G_TItem=0x10,
+        Drinking = 0x20, Eating = 0x40, Telephone = 0x80, Talking = 0x100 } //G_TItem = Give/Take Item  //Run_Test = 0x200
     [SerializeField]private States currentState = States.Idle;
     private States previousState = States.Idle;
     public  States currentState_gs{get { return currentState;}set { currentState = value;}}
@@ -16,12 +17,16 @@ public class AI : MonoBehaviour {
     public UnityEngine.AI.NavMeshAgent agent { get; private set; }             // the navmesh agent required for the path finding
     public ThirdPersonCharacter character { get; private set; } // the character we are controlling
 
-
+    //Test Walking
     public Vector3 target = Vector3.zero;                                    // target to Walk/Run to
     private float timer = 0f;
-
     public bool goNow = false;
 
+    //AI for game
+    private List<Vector3> targets;
+    public List<Vector3> targets_gs {get { return targets;}set { targets = value;}}
+    public Vector3 AIPosition;
+    public Quaternion AIRotation;
 
     private void Start()
     {
@@ -33,23 +38,26 @@ public class AI : MonoBehaviour {
         agent.updatePosition = true;
 
         target = new Vector3(5f,0f,5f);
+
+        ChangeState();
+
     }
 
 
     private void Update()
     {
-        if (goNow)
-        {
-            if (target != Vector3.zero)
-                agent.SetDestination(target);
+        //if (goNow)
+        //{
+        //    if (target != Vector3.zero)
+        //        agent.SetDestination(target);
 
-            if (agent.remainingDistance > agent.stoppingDistance)
-                character.Move(agent.desiredVelocity);
-            else
-            {
-                character.Move(Vector3.zero, false, false);
-            }
-        }
+        //    if (agent.remainingDistance > agent.stoppingDistance)
+        //        character.Move(agent.desiredVelocity);
+        //    else
+        //    {
+        //        character.Move(Vector3.zero, false, false);
+        //    }
+        //}
 
         //ChangeState();
     }
@@ -83,7 +91,7 @@ public class AI : MonoBehaviour {
                     character.Sitting(false);
                     character.Talking(false);
                     break;
-                case States.Sitting | States.Work:
+                case States.Work:
                     character.Sitting(false);
                     character.Work(false);
                     break;
@@ -132,7 +140,7 @@ public class AI : MonoBehaviour {
                     character.Sitting(true);
                     character.Talking(true);
                     break;
-                case States.Sitting | States.Work:
+                case States.Work:
                     character.Sitting(true);
                     character.Work(true);
                     break;
@@ -157,6 +165,8 @@ public class AI : MonoBehaviour {
                     break;
             }
             previousState = currentState;
+            transform.rotation = AIRotation;
+            transform.position = AIPosition;
         }
     }
 }

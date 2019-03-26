@@ -14,7 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NPCs:
   - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
   NPC_AI:
   - {fileID: 11400000, guid: 6a031ec0527448846bdfa66a2623eb3b, type: 2}
+  - {fileID: 11400000, guid: 9cf8e6f99ff14d747ad831d5e79f78c2, type: 2}
+  - {fileID: 11400000, guid: ef75c124cfb6cc64fa5f29bc1245dac7, type: 2}
+  - {fileID: 11400000, guid: 6449a8051338aa343ad4244019550e1c, type: 2}
+  - {fileID: 11400000, guid: d076f0333c66fd04d997653d635c319d, type: 2}
+  - {fileID: 11400000, guid: 14bd78d6247ab1141a733d42f80986ef, type: 2}
+  - {fileID: 11400000, guid: 4ca56d64a18701d4b8e1a951dd706a22, type: 2}
   Objectives:
   - {fileID: 11400000, guid: 2edf63e74743eb34fa08cdc46bec8876, type: 2}

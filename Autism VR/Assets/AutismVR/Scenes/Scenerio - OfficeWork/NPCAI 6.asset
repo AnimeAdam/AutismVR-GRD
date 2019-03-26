@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a334e026c6e00b4097369e654b45e94, type: 3}
-  m_Name: NPCAI
+  m_Name: NPCAI 6
   m_EditorClassIdentifier: 
   NPCname: NPC1
-  spawnPoint: {x: 2.984, y: 0.05199999, z: 4.391}
-  facingDirection: 0
+  spawnPoint: {x: -6.832, y: 0.05199999, z: -6.449}
+  facingDirection: 2
   targets: []
   loop: 0
   State: 4
