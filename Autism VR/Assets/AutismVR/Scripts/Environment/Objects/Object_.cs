@@ -1,11 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using UnityEngine;
 
-public class Object_ : MonoBehaviour {
+public class Object_ : MonoBehaviour
+{
+    public int objectID;
 
-	// Use this for initialization
-	void Start () {
+    public Vector3 position;            //Find some way to budge the NPC
+
+    public static Object_ CreateComponent(GameObject where, int obID)
+    {
+        Object_ myC = where.AddComponent<Object_>();
+        myC.objectID = obID;
+        return myC;
+    }
+    
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
