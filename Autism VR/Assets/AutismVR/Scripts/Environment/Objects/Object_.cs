@@ -7,7 +7,23 @@ public class Object_ : MonoBehaviour
 {
     public int objectID;
 
-    public Vector3 position;            //Find some way to budge the NPC
+    public Vector3 startingPosition;
+
+    public enum ObjectType
+    {
+        Furniture,
+        Lighting,
+        Plumbing,
+        Electronics,
+        Decorations,
+        Misc,
+        Kids_Stuff,
+        Floor,
+        Building,
+        Walls
+    }
+
+    public Vector3 chairSittingPosition;
 
     public static Object_ CreateComponent(GameObject where, int obID)
     {
@@ -17,9 +33,10 @@ public class Object_ : MonoBehaviour
     }
     
     // Use this for initialization
-    void Start () {
-		
-	}
+    void Start ()
+    {
+        startingPosition = transform.position;
+    }
 	
 	// Update is called once per frame
 	void Update () {

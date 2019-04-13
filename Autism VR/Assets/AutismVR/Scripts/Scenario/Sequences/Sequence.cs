@@ -5,7 +5,7 @@ using UMA.CharacterSystem;
 using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NPCAI", menuName = "Scenario Creator/NPC Sequence AI", order = 2)]
+[CreateAssetMenu(fileName = "NPCAI", menuName = "Scenario Creator/AI Sequence", order = 2)]
 public class Sequence : ScriptableObject
 {
     [Header("NPC Info")] public string NPCname = "NPC1";

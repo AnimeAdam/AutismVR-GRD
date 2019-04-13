@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d5413a51885bc448b18e6eb4652fa5, type: 3}
+  m_Name: Scenario0
+  m_EditorClassIdentifier: 
+  NPCs:
+  - {fileID: 4369329173793943458, guid: 6e8124f527b516a41a1df33ac94edfc0, type: 3}
+  NPC_AI:
+  - {fileID: 11400000, guid: 77790714c9340524190d2d1927b4d85d, type: 2}
+  Objectives:
+  - {fileID: 11400000, guid: 9d5b2daa8c2d51e4394cc38763058d1b, type: 2}

@@ -43,20 +43,26 @@ public class ScenarioManager : MonoBehaviour {
 
     private void SetScenario()
     {
-        _NPCs = Scenarios.NPCs;
-        _NPC_AI = Scenarios.NPC_AI;
-        _Objectives = Scenarios.Objectives;
+        if (Scenarios != null)
+        {
+            _NPCs = Scenarios.NPCs;
+            _NPC_AI = Scenarios.NPC_AI;
+            _Objectives = Scenarios.Objectives;
+        }
     }
 
     void SpawnAIs()
     {
-        for (int i = 0; i < _NPCs.Count; i++)
+        if (_NPCs != null)
         {
-            GameObject _UMAAI = _NPCs[i];
-            _UMAAI.GetComponent<AI>().currentState_gs = _NPC_AI[i].State;
-            _UMAAI.GetComponent<AI>().AIRotation = FacingDirection(_NPC_AI[i].facingDirection);
-            _UMAAI.GetComponent<AI>().AIPosition = _NPC_AI[i].spawnPoint;
-            Instantiate(_UMAAI, new Vector3(3000f,3000f,3000f),Quaternion.identity);
+            for (int i = 0; i < _NPCs.Count; i++)
+            {
+                GameObject _UMAAI = _NPCs[i];
+                _UMAAI.GetComponent<AI>().currentState_gs = _NPC_AI[i].State;
+                _UMAAI.GetComponent<AI>().AIRotation = FacingDirection(_NPC_AI[i].facingDirection);
+                _UMAAI.GetComponent<AI>().AIPosition = _NPC_AI[i].spawnPoint;
+                Instantiate(_UMAAI, new Vector3(3000f, 3000f, 3000f), Quaternion.identity);
+            }
         }
     }
 
@@ -84,8 +90,10 @@ public class ScenarioManager : MonoBehaviour {
 
     void SetObjectives()
     {
-        var text = _Objectives_gb.transform.GetChild(0).GetComponent<Text>();
-        text.text += _Objectives[0].instructions;
+        if (_Objectives_gb != null)
+        {
+            var text = _Objectives_gb.transform.GetChild(0).GetComponent<Text>();
+            text.text += _Objectives[0].instructions;
+        }
     }
-
 }
