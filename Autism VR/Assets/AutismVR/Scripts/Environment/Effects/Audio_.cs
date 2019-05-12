@@ -16,131 +16,221 @@ public class Audio_ : MonoBehaviour
 
     [Header("You can only play one of each kind of audio")]
     [Header("Add the audio clip .mp3 or .wav")]
-    public List<AudioClip> audios = new List<AudioClip>();
+    public List<AudioClip> audios = new List<AudioClip>();                          //AUDIO CLIP
     [Header("Constant, PlayOnce when player is near, Play Every seconds")]
-    public List<mode> audioMode = new List<mode>();
+    public List<mode> audioMode = new List<mode>();                                 //AUDIO MODE
     [Header("Default value should be 2")]
-    public List<float> audioDistance = new List<float>();
+    public List<float> audioDistance = new List<float>();                           //SET AUDIO DISTANCE
     [Header("How many seconds between each play")]
-    public List<float> audioSeconds = new List<float>();
+    public List<float> audioSeconds = new List<float>();                            //SET HOW LONG TO PLAY SOUND BETWEEN CLIPS
+    
+    //Variables for Audios
+    private bool playOnceBool = true;
 
-
-    private int constantAudio;
-    private int playedOnceInt;
-    private bool playedOnceBool;
-    //private List<int> playEveryPostion;
+    //TIMER
     private float timer;
 
+    //Checkers false is 0 for a list
+    private bool audioClipCheck = false;
+    private bool audioModeCheck = false;
+    private bool audioDistanceCheck = false;
+    private bool audioSecondsCheck = false;
+
+    //COMPONENTS
     private AudioSource _audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-        //_audioSource = GetComponent<AudioSource>();
-        //AudioSet();
+        AudioDefault();
+        AudioSet();
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*timer += Time.deltaTime;
-        
-        if (playedOnceBool)
+        timer += Time.deltaTime;
+
+        if (!_audioSource.isPlaying)
         {
-            PlayOnce();
+            ResetConstant();
         }
 
-        if (!playedOnceBool)
+        if (playOnceBool)
         {
-            BackToConstant();
+            PlayOnceNow();
         }
+    }
 
-        PlayEvery(timer);*/
+    #region AudioModes
+
+    void SetConstant()
+    {
+        for (int i = 0; i < audioMode.Count; i++)
+        {
+            if (audioMode[i] == mode.Constant)
+            {
+                if (_audioSource.clip == null)
+                {
+                    PlayAudio(audios[i], true);
+                    SetAudioDistance(i);
+                }
+                else
+                {
+                    Debug.Log(gameObject.name + " HAS TWO OR MORE AUDIO CONSTANTS");
+                    Debug.Break();
+                }
+            }
+        }
+    }
+
+    void ResetConstant()
+    {
+        for (int i = 0; i < audioMode.Count; i++)
+        {
+            if (audioMode[i] == mode.Constant)
+            {
+                PlayAudio(audios[i], true);
+                SetAudioDistance(i);
+            }
+        }
+    }
+
+    void PlayOnceNow()
+    {
+        for (int i = 0; i < audioMode.Count; i++)
+        {
+            if (audioMode[i] == mode.PlayOnce)
+            {
+                Vector3 playerPos = GameObject.Find("Main Camera").gameObject.transform.position;
+                Vector3 objectPos = transform.position;
+
+                if (audioDistance[i] != 0f)
+                {
+                    if ((objectPos.x - playerPos.x < audioDistance[i] && objectPos.z - playerPos.z < audioDistance[i]) &&
+                        (objectPos.x - playerPos.x > -audioDistance[i] && objectPos.z - playerPos.z > -audioDistance[i]))   
+                    {
+                        PlayAudio(audios[i]);
+                        SetAudioDistance(i);
+                        playOnceBool = false;
+                    }
+                }
+                else
+                {
+                    Debug.Log(gameObject.name + " AUDIO DISTANCE IS MISSING!!!");
+                    Debug.Break();
+                }
+            }
+        }
+    }
+
+    void PlayEveryTime(float timer)
+    {
+        for (int i = 0; i < audioMode.Count; i++)
+        {
+            if (audioMode[i] == mode.PlayEvery)
+            {
+                if (audioSeconds[i] != 0)
+                {
+                    if (timer % audioSeconds[i] == 0)
+                    {
+                        PlayAudio(audios[i]);
+                        SetAudioDistance(i);
+                    }
+                }
+                else
+                {
+                    Debug.Log(gameObject.name + " AUDIO SECONDS HAVEN'T BEEN SET!!!");
+                    Debug.Break();
+                }
+            }
+        }
+    }
+
+    #endregion
+
+    #region AudioSettings
+
+    void PlayAudio(AudioClip ac, bool loop = false)
+    {
+        if (loop)
+        {
+            _audioSource.loop = true;
+        }
+        else
+        {
+            _audioSource.loop = false;
+        }
+        _audioSource.clip = ac;
+        _audioSource.Play();
+    }
+
+    void SetAudioDistance(int index)
+    {
+        if (audioDistanceCheck)
+        {
+            if (audioDistance[index] == 0)
+            {
+                _audioSource.maxDistance = 2f;
+            }
+            else
+            {
+                _audioSource.maxDistance = audioDistance[index];
+            }
+        }
+    }
+
+    #endregion
+
+    #region Defaults
+
+    void AudioDefault()
+    {
+        _audioSource = GetComponent<AudioSource>();
+        _audioSource.playOnAwake = false;
+        _audioSource.spatialBlend = 1f;
+        _audioSource.minDistance = 0.01f; //0.01f
+        _audioSource.maxDistance = 2f;
+
+        if (audios.Count > 0)
+        {
+            foreach (AudioClip clip in audios)
+            {
+                if (clip == null)
+                {
+                    Debug.Log(gameObject.name + " AUDIO CLIP IS MISSING!!!");
+                    Debug.Break();
+                }
+            }
+            audioClipCheck = true;
+        }
+        if (audioMode.Count > 0)
+        {
+            audioModeCheck = true;
+        }
+        if (audioDistance.Count > 0)
+        {
+            audioDistanceCheck = true;
+        }
+        if (audioSeconds.Count > 0)
+        {
+            audioSecondsCheck = true;
+        }
     }
 
     void AudioSet()
     {
-        _audioSource.spatialBlend = 1f;
-        _audioSource.minDistance = 0.01f;
-        if (audios != null)
+        if (audioClipCheck && audioModeCheck)
         {
-            for (int i = 0; i < audios.Count; i++)
-            {
-                //CONSTANT
-                if (audioMode[i] == mode.Constant)
-                {
-                    if (_audioSource.loop == false)
-                    {
-                        constantAudio = i;
-                        _audioSource.clip = audios[i];
-                        _audioSource.loop = true;
-                        _audioSource.maxDistance = audioDistance[i];
-                        _audioSource.Play();
-                    }
-                    else
-                    {
-                        Debug.Log("THERE ARE MORE THEN 2 CONSTANT SOUNDS");
-                    }
-                }
-
-                //PLAYED_ONCE
-                if (audioMode[i] == mode.PlayOnce)
-                {
-                    playedOnceInt = i;
-                    playedOnceBool = true;
-                }
-
-                ////PLAYED_EVERY
-                //if (audioMode[i] == mode.PlayEvery)
-                //{
-                //    playEveryPostion.Add(i);
-                //}
-            }
+            //CONSTANT
+            SetConstant();
+        }
+        else if (audioClipCheck)
+        {
+            Debug.Log(gameObject.name + " SOMETHING AUDIO HASN'T BEEN SET");
+            Debug.Break();
         }
     }
 
-    void PlayOnce()
-    {
-        Vector3 playerPos = GameObject.Find("FPSController 1(Clone)").gameObject.transform.position;
-        Vector3 objectPos = transform.position;
-
-        if (objectPos.x - playerPos.x < 3f && objectPos.x - playerPos.x > 3f &&
-            objectPos.z - playerPos.z < 3f && objectPos.z - playerPos.z > 3f)
-        {
-            _audioSource.clip = audios[playedOnceInt];
-            _audioSource.loop = false;
-            _audioSource.maxDistance = audioDistance[playedOnceInt];
-            _audioSource.Play();
-        }
-
-        playedOnceBool = false;
-    }
-
-    void BackToConstant()
-    {
-        if (!_audioSource.isPlaying)
-        {
-            _audioSource.clip = audios[constantAudio];
-            _audioSource.loop = true;
-            _audioSource.maxDistance = audioDistance[constantAudio];
-            _audioSource.Play();
-        }
-    }
-
-    void PlayEvery(float timer)
-    {
-        for (int i = 0; i < audioSeconds.Count; i++)
-        {
-            if (audioSeconds[i] != 0f)
-            {
-                if (audioSeconds[i] % timer < 0.5f || audioSeconds[i] % timer > -0.5f)
-                {
-                    _audioSource.clip = audios[i];
-                    _audioSource.loop = false;
-                    _audioSource.maxDistance = audioDistance[i];
-                    _audioSource.Play();
-                }
-            }
-        }
-    }
+    #endregion
 }
