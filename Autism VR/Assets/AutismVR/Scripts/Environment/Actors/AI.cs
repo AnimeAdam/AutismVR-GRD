@@ -20,7 +20,7 @@ public class AI : MonoBehaviour {
     //Test Walking
     public Vector3 target = Vector3.zero;                                    // target to Walk/Run to
     private float timer = 0f;
-    public bool goNow = false;
+    public bool goNow = true;
 
     //AI for game
     private List<Vector3> targets;
@@ -165,8 +165,8 @@ public class AI : MonoBehaviour {
                     break;
             }
             previousState = currentState;
-            transform.rotation = AIRotation;
-            transform.position = AIPosition;
         }
+        transform.rotation = AIRotation;
+        transform.position = AIPosition;
     }
 }
