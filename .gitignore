@@ -34,3 +34,98 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+DEMO/Autism VR_Data/app.info
+DEMO/Autism VR_Data/boot.config
+DEMO/Autism VR_Data/globalgamemanagers
+DEMO/Autism VR_Data/globalgamemanagers.assets
+DEMO/Autism VR_Data/level0
+DEMO/Autism VR_Data/level0.resS
+DEMO/Autism VR_Data/level1
+DEMO/Autism VR_Data/level1.resS
+DEMO/Autism VR_Data/level2
+DEMO/Autism VR_Data/level3
+DEMO/Autism VR_Data/level4
+DEMO/Autism VR_Data/level4.resS
+DEMO/Autism VR_Data/Managed/UnityEngine.AccessibilityModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.AIModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.AnimationModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ARModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.AssetBundleModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.AudioModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.BaselibModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ClothModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ClusterInputModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ClusterRendererModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.CoreModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.CrashReportingModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.DirectorModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.FileSystemHttpModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.GameCenterModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.GridModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.HotReloadModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ImageConversionModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.IMGUIModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.InputModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.JSONSerializeModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.LocalizationModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ParticleSystemModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.PerformanceReportingModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.Physics2DModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.PhysicsModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ProfilerModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.ScreenCaptureModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.SharedInternalsModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.SpriteMaskModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.SpriteShapeModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.StreamingModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.StyleSheetsModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.SubstanceModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TerrainModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TerrainPhysicsModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TextCoreModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TextRenderingModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TilemapModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TimelineModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.TLSModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UIElementsModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UIModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UmbraModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UNETModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityAnalyticsModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityConnectModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityTestProtocolModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityWebRequestAudioModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityWebRequestModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityWebRequestTextureModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.UnityWebRequestWWWModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.VehiclesModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.VFXModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.VideoModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.VRModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.WindModule.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.xml
+DEMO/Autism VR_Data/Managed/UnityEngine.XRModule.xml
+DEMO/Autism VR_Data/resources.assets
+DEMO/Autism VR_Data/resources.assets.resS
+DEMO/Autism VR_Data/resources.resource
+DEMO/Autism VR_Data/Resources/unity default resources
+DEMO/Autism VR_Data/Resources/unity_builtin_extra
+DEMO/Autism VR_Data/sharedassets0.assets
+DEMO/Autism VR_Data/sharedassets0.assets.resS
+DEMO/Autism VR_Data/sharedassets1.assets
+DEMO/Autism VR_Data/sharedassets2.assets
+DEMO/Autism VR_Data/sharedassets2.assets.resS
+DEMO/Autism VR_Data/sharedassets3.assets
+DEMO/Autism VR_Data/sharedassets4.assets
+DEMO/INSTRUCTIONS.txt
+DEMO/Mono/etc/mono/1.0/DefaultWsdlHelpGenerator.aspx
+DEMO/Mono/etc/mono/1.0/machine.config
+DEMO/Mono/etc/mono/2.0/Browsers/Compat.browser
+DEMO/Mono/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+DEMO/Mono/etc/mono/2.0/machine.config
+DEMO/Mono/etc/mono/2.0/settings.map
+DEMO/Mono/etc/mono/2.0/web.config
+DEMO/Mono/etc/mono/browscap.ini
+DEMO/Mono/etc/mono/config
+DEMO/Mono/etc/mono/mconfig/config.xml

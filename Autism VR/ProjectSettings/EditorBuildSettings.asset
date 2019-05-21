@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AutismVR/Scenes/RoomRestaurant.unity
     guid: 9ad109b4c70f7f643890d00689f59735
+  - enabled: 1
+    path: Assets/AutismVR/Scenes/RoomPlayground.unity
+    guid: 6753add4ebd8e354aafc281df5fc013d
   m_configObjects: {}

@@ -1,7 +1,0 @@
-to do:
-
-- Add more features
-- Add Session Minutes
-- Add the week to week work on the Design Docs
-- Take bits from all the articles and add them as quotes and citations to the Design Notes, Add research for Industry standard for VR and creating educational VR
-- Make detailed pipeline for 

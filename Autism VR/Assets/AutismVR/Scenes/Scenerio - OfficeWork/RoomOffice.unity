@@ -6511,6 +6511,20 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 602254637, guid: 0c51a825db477554ba96460295250e37, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303327576482615993, guid: 0c51a825db477554ba96460295250e37,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303327576482615993, guid: 0c51a825db477554ba96460295250e37,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c51a825db477554ba96460295250e37, type: 3}
 --- !u!1001 &1675568811
